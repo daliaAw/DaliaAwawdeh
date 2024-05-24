@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/DaliaAwawdeh/static/css/main.7cd37cdb.css",
+    "main.js": "/DaliaAwawdeh/static/js/main.cab3dd80.js",
+    "static/media/pro3.png": "/DaliaAwawdeh/static/media/pro3.6549927a66fd1a65331c.png",
+    "static/media/DaliaAwawdeh.pdf": "/DaliaAwawdeh/static/media/DaliaAwawdeh.d413f4cecdc92169cde9.pdf",
+    "static/media/pro3-1.JPG": "/DaliaAwawdeh/static/media/pro3-1.de36d493197fb2cdfe60.JPG",
+    "static/media/pro2-1.JPG": "/DaliaAwawdeh/static/media/pro2-1.b6314bb018d7c947f320.JPG",
+    "static/media/pro4-1.JPG": "/DaliaAwawdeh/static/media/pro4-1.58941a7da77d236d2c57.JPG",
+    "static/media/pro1.jpeg": "/DaliaAwawdeh/static/media/pro1.511322f10b3f0eea7aca.jpeg",
+    "index.html": "/DaliaAwawdeh/index.html",
+    "main.7cd37cdb.css.map": "/DaliaAwawdeh/static/css/main.7cd37cdb.css.map",
+    "main.cab3dd80.js.map": "/DaliaAwawdeh/static/js/main.cab3dd80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cd37cdb.css",
+    "static/js/main.cab3dd80.js"
+  ]
+}
