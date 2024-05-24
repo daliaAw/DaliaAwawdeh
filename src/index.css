@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right, #F5F5F5, #d0676c);
+  box-sizing: border-box;
+  overflow-x: hidden
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.section-container
+{
+  height: auto;
+  text-align: center;
+  padding: 2.5% 0;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  font-size: 32px;
+}
+
+.subtitle {
+  color: #d0676c;
+  position: relative;
+  margin-bottom: 40px;
+  padding: 10px 20px; /* Add padding for spacing */
+  display: inline-block; /* Ensure inline-block display to contain the background pattern */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  font-weight: bold; /* Increase font-weight for emphasis */
+  animation: pulse 2s infinite alternate; /* Add animation effect */
+}
+
+/* Animation keyframes */
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
+.divider {
+  background-image: linear-gradient(to right, white, #d0676c, white);
+  height: 2px;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+  .subtitle {
+    margin-bottom: 5px;
+    padding: 8px 0px; 
+    font-size: smaller;
+  }
+}
